@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container shadow">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img src="img/logoiesfseif.png" alt="logo" width="250"></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parrafos.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="enlaces.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a href="listas.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tablas.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formularios.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="multimedia.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+        </header>
+        <main class="shadow">
+            <div class="px-3">
+                <h1 class="text-center bg-azul-o text-white py-3">HTML5 & CSS3</h1>
+            </div>
+            <div class="px-3">
+                <hr>
+            </div>
+            <div class="p-3">
+                <div id="listas" class="py-3">
+                    <h2 class="text-center">LISTAS</h2>
+                    <h2 class="text-subr">Tipos de listas:</h2>
+                    <h3>Listas desordenadas (ul)</h3>
+                    <ul>
+                        <li>File</li>
+                        <li>Edit</li>
+                        <li>Selection</li>
+                        <li>View</li>
+                    </ul>
+                    <h3>Listas ordenadas (ol)</h3>
+                    <ol>
+                        <li>File</li>
+                        <li>Edit</li>
+                        <li>Selection</li>
+                        <li>View</li>
+                    </ol>
+                    <h3>Listas desordenada de varios niveles</h3>
+                    <ul>
+                        <li>File
+                            <ul>
+                                <li>Open</li>
+                                <li>Save</li>
+                                <li>Exit</li>
+                            </ul>
+                        </li>
+                        <li>Edit
+                            <ul>
+                                <li>Copy</li>
+                                <li>Paste</li>
+                            </ul>
+                        </li>
+                        <li>Selection
+                            <ul>
+                                <li>All</li>
+                            </ul>
+                        </li>
+                        <li>View
+                            <ul>
+                                <li>Window</li>
+                                <li>Full Screen</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <h3>Listas ordenada de varios niveles</h3>
+                    <ol>
+                        <li>File
+                            <ol>
+                                <li>Open</li>
+                                <li>Save</li>
+                                <li>Exit</li>
+                            </ol>
+                        </li>
+                        <li>Edit
+                            <ol>
+                                <li>Copy</li>
+                                <li>Paste</li>
+                            </ol>
+                        </li>
+                        <li>Selection
+                            <ol>
+                                <li>All</li>
+                            </ol>
+                        </li>
+                        <li>View
+                            <ol>
+                                <li>Window</li>
+                                <li>Full Screen</li>
+                            </ol>
+                        </li>
+                    </ol>
+                    <h3>Listas desordenada de varios niveles CUSTOMIZADA</h3>
+                    <div id="ulcustom">
+                        <ul>
+                            <li>File
+                                <ul>
+                                    <li>Open</li>
+                                    <li>Save</li>
+                                    <li>Exit</li>
+                                </ul>
+                            </li>
+                            <li>Edit
+                                <ul>
+                                    <li>Copy
+                                        <ul>
+                                            <li>All</li>
+                                            <li>Block</li>
+                                        </ul>
+                                    </li>
+                                    <li>Paste</li>
+                                </ul>
+                            </li>
+                            <li>Selection
+                                <ul>
+                                    <li>All</li>
+                                </ul>
+                            </li>
+                            <li>View
+                                <ul>
+                                    <li>Window
+                                        <ul>
+                                            <li>Maximizada</li>
+                                            <li>Minimizada</li>
+                                        </ul>
+                                    </li>
+                                    <li>Full Screen</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <h3>Listas ordenada de varios niveles CUSTOMIZADA</h3>
+                    <div id="olcustom">
+                        <ol>
+                            <li>File
+                                <ol>
+                                    <li>Open</li>
+                                    <li>Save</li>
+                                    <li>Exit</li>
+                                </ol>
+                            </li>
+                            <li>Edit
+                                <ol>
+                                    <li>Copy
+                                        <ol>
+                                            <li>All</li>
+                                            <li>Block</li>
+                                        </ol>
+                                    </li>
+                                    <li>Paste</li>
+                                </ol>
+                            </li>
+                            <li>Selection
+                                <ol>
+                                    <li>All</li>
+                                </ol>
+                            </li>
+                            <li>View
+                                <ol>
+                                    <li>Window
+                                        <ol>
+                                            <li>Maximizada</li>
+                                            <li>Minimizada</li>
+                                        </ol>
+                                    </li>
+                                    <li>Full Screen</li>
+                                </ol>
+                            </li>
+                        </ol>
+                    </div>
+                    <h3>Listas desordenada de varios niveles CUSTOMIZADA con imágenes</h3>
+                    <div id="ulcustomi">
+                        <ul>
+                            <li>File
+                                <ul>
+                                    <li>Open</li>
+                                    <li>Save</li>
+                                    <li>Exit</li>
+                                </ul>
+                            </li>
+                            <li>Edit
+                                <ul>
+                                    <li>Copy
+                                        <ul>
+                                            <li>All</li>
+                                            <li>Block</li>
+                                        </ul>
+                                    </li>
+                                    <li>Paste</li>
+                                </ul>
+                            </li>
+                            <li>Selection
+                                <ul>
+                                    <li>All</li>
+                                </ul>
+                            </li>
+                            <li>View
+                                <ul>
+                                    <li>Window
+                                        <ul>
+                                            <li>Maximizada</li>
+                                            <li>Minimizada</li>
+                                        </ul>
+                                    </li>
+                                    <li>Full Screen</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <h3>Listas de definición</h3>
+                    <dl>
+                        <dt>Puerta</dt>
+                        <dd>Una puerta sirve Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non quo at enim
+                            praesentium fugiat quia, debitis laboriosam temporibus atque! Ad vel necessitatibus, aliquid
+                            quibusdam a nobis error repudiandae aut impedit.</dd>
+                        <dt>Ventana</dt>
+                        <dd>En las Ventanas entra la luz Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus
+                            molestias quos praesentium veniam fugit facilis consequatur id similique cum. At alias
+                            corrupti fugit, ut tempora ipsum similique facere eos explicabo.</dd>
+                        <dt>Pared</dt>
+                        <dd>La paredes delimitan Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Necessitatibus a voluptatem inventore vitae ad nisi perferendis numquam repellendus.
+                            Assumenda maxime aliquam ipsa possimus porro dolore repudiandae id iste amet molestias.</dd>
+                    </dl>
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <h1 class="bg-azul-o text-center text-white py-3">&copy; Paco Pulido</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>
